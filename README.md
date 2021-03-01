@@ -1,4 +1,4 @@
-# Emotion Classification using BERT model
+# Emotion Classification using BERT transfer learning model
 This project was created for Data science course. I have used pre-trained BERT model [1] and softmax activation function. Softmax activation function is used to use BERT 
 for multiclass classification. BERT was a transfer learning Natural language processing model proposed in 2018. Since then it has been used for numerous tasks such as classification, regression. BERT has been pretrained with millions of data from the Wikipedia to 
 understand langauge.
