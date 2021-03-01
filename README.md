@@ -1,6 +1,8 @@
 # Emotion Classification using BERT model
 This project was created for Data science course. I have used pre-trained BERT model [1] and softmax activation function. Softmax activation function is used to use BERT 
-for multiclass classification. The data is taken from Lukas's repository [2]. The ktrain library is used as a wrapper for softmax function and tokenizing functions. 
+for multiclass classification. BERT was a transfer learning Natural language processing model proposed in 2018. Since then it has been used for numerous tasks such as classification, regression. BERT has been pretrained with millions of data from the Wikipedia to 
+understand langauge.
+The data is taken from Lukas's repository [2]. The ktrain library is used as a wrapper for softmax function and tokenizing functions. 
 ### Brief description
 - Data format: data is in a CSV format. It has 5 emotion labels, ```joy, sadness, fear, anger, neutral```
 - Data is first tokenized using the tokenizer method for bert, it is implemented in the ktrain library.  
